@@ -1,1 +1,109 @@
+/* Fonts & Base Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A73E8;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #1A73E8;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A73E8;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Gallery */
+.photo-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo-box {
+    background-color: #ddd;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* About Section */
+.about-section, .video-section {
+    padding: 20px;
+}
+
+/* Contact Form */
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #1A73E8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1A73E8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+    .photo-grid {
+        flex-direction: row;
+    }
+}
 
